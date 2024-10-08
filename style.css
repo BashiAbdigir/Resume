@@ -1,0 +1,111 @@
+html {
+  background: rgb(161, 116, 219);
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1,
+h3 {
+  text-align: center;
+  font-variant: small-caps;
+}
+
+span {
+  margin-left: 400px;
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+
+#socials {
+  border: 2px solid black;
+}
+
+.scl {
+  background: rgb(151, 128, 233);
+  font-size: 18px;
+  padding: 5px;
+}
+
+#scl {
+  width: 500px;
+}
+
+h3 {
+  background-color: rgb(200, 151, 240);
+  width: 400px;
+  padding: 5px;
+  margin: 12px auto;
+  color: white;
+  letter-spacing: 1.5px;
+  border-radius: 15px;
+  border: 2px rgb(74, 3, 88) solid;
+}
+
+h3:hover,
+h4:hover {
+  background: lightblue;
+  transition: background 1s;
+  border: 2px rgb(106, 198, 235) solid;
+  transition: border s;
+}
+
+/* Float is used here so it can make two different elements  be in the same line  */
+button {
+  background: rgba(255, 255, 255, 0.459);
+  border-radius: 5px;
+  float: right;
+}
+
+.fltr {
+  float: right;
+}
+
+#vltr {
+  text-align: center;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+h4 {
+  background: rgba(199, 153, 240, 0.795);
+  width: 300px;
+  margin: auto;
+  padding: 2px;
+  border-radius: 12px;
+  border: 2px solid rgba(167, 108, 223, 0.795);
+}
+
+td,
+th {
+  background-color: rgb(242, 203, 250);
+  padding: 4px;
+  border: 0px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+img {
+  width: 399px;
+}
+
+#imga {
+  text-align: center;
+}
